@@ -243,8 +243,8 @@ importers:
         specifier: ^3.3.2
         version: 3.3.2
       node-forge:
-        specifier: 1.3.1
-        version: 1.3.1(patch_hash=e32320aac1c0b5fc5548111012856993b2938f240b49c7988fdabf9e891644bd)
+        specifier: 1.3.2
+        version: 1.3.2
       posthog-js:
         specifier: ^1.236.8
         version: 1.276.0
@@ -6779,6 +6779,10 @@ packages:
     resolution: {integrity: sha512-dPEtOeMvF9VMcYV/1Wb8CPoVAXtp6MKMlcbAt4ddqmGqUJ6fQZFXkNZNkNlfevtNkGtaSoXf/vNNNSvgrdXwtA==}
     engines: {node: '>= 6.13.0'}
 
+  node-forge@1.3.2:
+    resolution: {integrity: sha512-6xKiQ+cph9KImrRh0VsjH2d8/GXA4FIMlgU4B757iI1ApvcyA9VlouP0yZJha01V+huImO+kKMU7ih+2+E14fw==}
+    engines: {node: '>= 6.13.0'}
+
   node-gyp-build@4.8.4:
     resolution: {integrity: sha512-LA4ZjwlnUblHVgq0oBF3Jl/6h/Nvs5fzBLwdEF4nuxnFdsfajde4WfxtJr3CaiH+F6ewcIB/q4jQ4UzPyid+CQ==}
     hasBin: true
@@ -10636,7 +10640,7 @@ snapshots:
       '@noble/hashes': 1.7.1
       base64url: 3.0.1
       libphonenumber-js: 1.11.2
-      node-forge: 1.3.1(patch_hash=e32320aac1c0b5fc5548111012856993b2938f240b49c7988fdabf9e891644bd)
+      node-forge: 1.3.2
       uuid: 11.1.0
     transitivePeerDependencies:
       - debug
@@ -16713,6 +16717,8 @@ snapshots:
 
   node-forge@1.3.1(patch_hash=e32320aac1c0b5fc5548111012856993b2938f240b49c7988fdabf9e891644bd): {}
 
+  node-forge@1.3.2: {}
+
   node-gyp-build@4.8.4: {}
 
   node-mock-http@1.0.0: {}
@@ -17554,7 +17560,7 @@ snapshots:
   selfsigned@2.4.1:
     dependencies:
       '@types/node-forge': 1.3.11
-      node-forge: 1.3.1(patch_hash=e32320aac1c0b5fc5548111012856993b2938f240b49c7988fdabf9e891644bd)
+      node-forge: 1.3.2
 
   semver@5.7.2: {}
 
