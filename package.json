@@ -185,7 +185,7 @@
     "vitest-canvas-mock": "^0.3.3",
     "wait-on": "^8.0.2",
     "wrangler": "^3.114.17",
-    "ws": "^8.16.0"
+    "ws": "^8.20.1"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
